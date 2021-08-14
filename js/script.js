@@ -28,3 +28,6 @@ const deleteAdd = document.querySelectorAll('.delete')
 deleteAdd.forEach(it => {
     it.remove()
 })
+
+const promo__genre = document.querySelector('.promo__genre')
+promo__genre.textContent = 'ДРАМА'
