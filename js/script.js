@@ -31,3 +31,6 @@ deleteAdd.forEach(it => {
 
 const promo__genre = document.querySelector('.promo__genre')
 promo__genre.textContent = 'ДРАМА'
+
+const promo__bg = document.querySelector('.promo__bg')
+promo__bg.style.cssText = `background: url('img/bg.jpg'); background-size: cover`
