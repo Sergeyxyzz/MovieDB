@@ -24,3 +24,7 @@ const movieDB = {
     ]
 };
 
+const deleteAdd = document.querySelectorAll('.delete')
+deleteAdd.forEach(it => {
+    it.remove()
+})
